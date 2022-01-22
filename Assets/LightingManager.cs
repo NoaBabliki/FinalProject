@@ -5,17 +5,19 @@ using UnityEngine;
 public class LightingManager : MonoBehaviour
 {
 	[SerializeField] private Transform lightSource;
-	[SerializeField] private Vector3 requiredPosition;
-	[SerializeField] private Quaternion requiredRotation;
+	[SerializeField] private Transform lightSourceTarget;
 	[SerializeField] private GameObject successShape;
 	
-	float positionDistanceRequired = 0.3f;
-	float rotationAngleRequired = 5f;
+	private float positionDistanceRequired = 0.3f;
+	private float rotationAngleRequired = 5f;
+	private Vector3 requiredPosition;
+	private Quaternion requiredRotation;
 	
     // Start is called before the first frame update
     void Start()
     {
-
+		requiredPosition = lightSourceTarget.position;
+		requiredRotation = lightSourceTarget.rotation;
     }
 
     // Update is called once per frame
