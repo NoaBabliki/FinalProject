@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Shir_light_test.unity
+    guid: f53e281a357641a439d956ddf0965e86
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5370df659733fdd4b8ca9115906e3682, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7106d6acdbaecf7459d4d585ef4200b7, type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: dfee0a27e46ede44fb51bc03b5dcff80, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b2df6b8a59b66984380d5f22c4b92d6a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5db140cac32ff5d44b3c7f7d3c14cf41, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: b21d8141a4c725c4f8c5a31b451240ac, type: 2}
