@@ -7,7 +7,7 @@ public class LightingManager : MonoBehaviour
 	[SerializeField] private Transform lightSource;
 	[SerializeField] private Vector3 requiredPosition;
 	[SerializeField] private Quaternion requiredRotation;
-	[SerializeField] private GameObject successSquare;
+	[SerializeField] private GameObject successShape;
 	
 	float positionDistanceRequired = 0.3f;
 	float rotationAngleRequired = 5f;
@@ -24,9 +24,9 @@ public class LightingManager : MonoBehaviour
         if (closeEnoughPosition(lightSource.position, requiredPosition) &&
 			closeEnoughRotation(lightSource.rotation, requiredRotation)	)
 		{
-			Debug.Log("Orientation detected!");
-			MeshRenderer successSquareMesh = successSquare.GetComponent<MeshRenderer>();
-			successSquareMesh.enabled = true;
+			Debug.Log(successShape.name + " detected!");
+			MeshRenderer successShapeMesh = successShape.GetComponent<MeshRenderer>();
+			successShapeMesh.enabled = true;
 		}
     }
 	

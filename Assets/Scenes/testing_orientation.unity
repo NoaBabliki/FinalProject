@@ -251,7 +251,7 @@ MonoBehaviour:
   lightSource: {fileID: 1587858392}
   requiredPosition: {x: 11, y: 2, z: 10}
   requiredRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  successSquare: {fileID: 1660994632}
+  successShape: {fileID: 1660994632}
 --- !u!4 &717097517
 Transform:
   m_ObjectHideFlags: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   lightSource: {fileID: 1587858392}
   requiredPosition: {x: -10, y: 2, z: 10}
   requiredRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  successSquare: {fileID: 1892861030}
+  successShape: {fileID: 1892861030}
 --- !u!4 &1373394445
 Transform:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 1660994634}
   - component: {fileID: 1660994633}
   m_Layer: 0
-  m_Name: successSquare (1)
+  m_Name: successSquare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 1892861032}
   - component: {fileID: 1892861031}
   m_Layer: 0
-  m_Name: successSquare
+  m_Name: successDiamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
