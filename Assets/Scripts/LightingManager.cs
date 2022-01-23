@@ -8,8 +8,8 @@ public class LightingManager : MonoBehaviour
 	[SerializeField] private Transform lightSourceTarget;
 	[SerializeField] private GameObject successShape;
 	
-	private float positionDistanceRequired = 0.3f;
-	private float rotationAngleRequired = 5f;
+	[SerializeField] private float positionDistanceRequired = 0.6f;
+	[SerializeField] private float rotationAngleRequired = 10f;
 	private Vector3 requiredPosition;
 	private Quaternion requiredRotation;
 	MeshRenderer successShapeMesh;
