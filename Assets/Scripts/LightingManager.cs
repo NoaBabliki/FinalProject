@@ -12,12 +12,15 @@ public class LightingManager : MonoBehaviour
 	private float rotationAngleRequired = 5f;
 	private Vector3 requiredPosition;
 	private Quaternion requiredRotation;
+	MeshRenderer successShapeMesh;
 	
     // Start is called before the first frame update
     void Start()
     {
+		successShapeMesh = successShape.GetComponent<MeshRenderer>();
 		requiredPosition = lightSourceTarget.position;
 		requiredRotation = lightSourceTarget.rotation;
+		successShapeMesh.enabled = false;
     }
 
     // Update is called once per frame
@@ -27,7 +30,6 @@ public class LightingManager : MonoBehaviour
 			closeEnoughRotation(lightSource.rotation, requiredRotation)	)
 		{
 			Debug.Log(successShape.name + " detected!");
-			MeshRenderer successShapeMesh = successShape.GetComponent<MeshRenderer>();
 			successShapeMesh.enabled = true;
 		}
     }
