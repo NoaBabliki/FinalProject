@@ -1227,8 +1227,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.01
   m_Range: 300
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1651,11 +1651,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 320541223}
     m_Modifications:
+    - target: {fileID: 842627326970924426, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2569193024930711228, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_Name
       value: GaslampThrone
       objectReference: {fileID: 0}
     - target: {fileID: 2569193024930711228, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893492654696457488, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1716,8 +1724,20 @@ PrefabInstance:
       value: 0.26666665
       objectReference: {fileID: 0}
     - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Intensity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
@@ -2012,11 +2032,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 320541223}
     m_Modifications:
+    - target: {fileID: 842627326970924426, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2569193024930711228, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_Name
       value: GaslampClock
       objectReference: {fileID: 0}
     - target: {fileID: 2569193024930711228, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893492654696457488, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2081,8 +2109,20 @@ PrefabInstance:
       value: 0.26666665
       objectReference: {fileID: 0}
     - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Intensity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 1152
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
@@ -3367,6 +3407,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 320541223}
     m_Modifications:
+    - target: {fileID: 842627326970924426, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2258338784580087200, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2569193024930711228, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_Name
       value: GaslampPainting
@@ -3379,6 +3427,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 869374094}
+    - target: {fileID: 2893492654696457488, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2948815269400173574, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3424,8 +3476,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Intensity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 1536
+      objectReference: {fileID: 0}
+    - target: {fileID: 6793452898905295657, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5b2e275885e3aa419f2c5d53fa05ebd, type: 3}
