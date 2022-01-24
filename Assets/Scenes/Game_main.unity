@@ -1857,7 +1857,7 @@ GameObject:
   - component: {fileID: 1413090868}
   - component: {fileID: 1413090867}
   - component: {fileID: 1413090866}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: StandHereToSeeThrone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1995,7 +1995,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8c6906ac48210e141bf9f6a52442a6b4, type: 2}
+  - {fileID: 2100000, guid: 53e122a0df3dbdb40a79b09e7b45abb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2153,7 +2153,7 @@ GameObject:
   - component: {fileID: 1938723225}
   - component: {fileID: 1938723224}
   - component: {fileID: 1938723223}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: StandHereToClock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,7 +2291,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8c6906ac48210e141bf9f6a52442a6b4, type: 2}
+  - {fileID: 2100000, guid: 53e122a0df3dbdb40a79b09e7b45abb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2388,7 +2388,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8c6906ac48210e141bf9f6a52442a6b4, type: 2}
+  - {fileID: 2100000, guid: 53e122a0df3dbdb40a79b09e7b45abb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
