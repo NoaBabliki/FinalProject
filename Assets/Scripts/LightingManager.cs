@@ -10,6 +10,7 @@ public class LightingManager : MonoBehaviour
 	
 	[SerializeField] private float positionDistanceRequired = 0.6f;
 	[SerializeField] private float rotationAngleRequired = 10f;
+	[SerializeField] private AudioSource successAudio;
 	private Vector3 requiredPosition;
 	private Quaternion requiredRotation;
 	MeshRenderer successShapeMesh;
@@ -31,6 +32,8 @@ public class LightingManager : MonoBehaviour
 		{
 			Debug.Log(successShape.name + " detected!");
 			successShapeMesh.enabled = true;
+			GameManager.AddSuccess();
+			successAudio.Play();
 		}
     }
 	
