@@ -6,9 +6,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private int overallSuccess = 3;
     [SerializeField] private Light largeSpot;
-    [SerializeField] private Canvas instructions;
    
-    [SerializeField] private float instructionsTimer = 30;
     [SerializeField] private AudioSource winAudio;
     static private int successCount = 0;
     // Start is called before the first frame update
@@ -30,12 +28,6 @@ public class GameManager : MonoBehaviour
             Debug.Log("ITS A WIN");
             MainAudio.StopAll();
             winAudio.GetComponent<AudioSource>().Play();
-        }
-        if (instructionsTimer > 0){
-            instructionsTimer -= Time.deltaTime;
-        }
-        else if (instructionsTimer <= 0) {
-            instructions.enabled = false;
         }
 
         

@@ -11,8 +11,10 @@ public class LightingManager : MonoBehaviour
 	[SerializeField] private float positionDistanceRequired = 0.6f;
 	[SerializeField] private float rotationAngleRequired = 10f;
 	[SerializeField] private AudioSource successAudio;
+	[SerializeField] private int gaslumpNumber;
 	private Vector3 requiredPosition;
 	private Quaternion requiredRotation;
+	private bool addSuccess = true;
 	MeshRenderer successShapeMesh;
 	
     // Start is called before the first frame update
@@ -32,9 +34,18 @@ public class LightingManager : MonoBehaviour
 		{
 			Debug.Log(successShape.name + " detected!");
 			successShapeMesh.enabled = true;
-			GameManager.AddSuccess();
-			successAudio.Play();
+			if (addSuccess){
+				GameManager.AddSuccess();
+				successAudio.Play();
+				addSuccess = false;
+			}
+			
 		}
+		if (Gaslamp.gaslightNumberOn != gaslumpNumber) {
+				Debug.Log("suppose to get rid of shadow");
+				successShapeMesh.enabled = false;
+			}
+		
     }
 	
 	bool closeEnoughPosition(Vector3 position1, Vector3 position2)

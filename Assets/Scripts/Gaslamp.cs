@@ -12,6 +12,7 @@ public class Gaslamp : MonoBehaviour
     [SerializeField] private Light gaslight;
     [SerializeField] private Transform clue;
     [SerializeField] private Transform statue;
+    [SerializeField] private Transform shadow;
     [SerializeField] private float originalTimeUntilClue = 200f;
     [SerializeField] private AudioSource dropAudio;
 
@@ -35,6 +36,7 @@ public class Gaslamp : MonoBehaviour
         else{
             gaslight.enabled = false;
             statueMesh.enabled = false;
+            shadow.GetComponent<MeshRenderer>().enabled = false;
         }
         
     }

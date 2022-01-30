@@ -10,6 +10,7 @@ public class GaslightButton : MonoBehaviour
     [SerializeField] private int gaslampNumber;
     [SerializeField] private AudioSource switchSound;
 
+ 
     private bool isPressed;
     private Vector3 startPos;
     private ConfigurableJoint joint;
@@ -19,14 +20,17 @@ public class GaslightButton : MonoBehaviour
     {
         startPos = transform.localPosition;
         joint = GetComponent<ConfigurableJoint>();
-        
+   
     }
 
     private void Pressed(){
-        isPressed = true;
-        Gaslamp.gaslightNumberOn = gaslampNumber;
-        switchSound.Play();
-        Debug.Log("pressed" + gaslampNumber);
+        if (gaslampNumber != Gaslamp.gaslightNumberOn){
+            isPressed = true;
+            Gaslamp.gaslightNumberOn = gaslampNumber;
+            switchSound.Play();
+            Debug.Log("pressed" + gaslampNumber);
+        }
+        
     }
 
     private void Released(){
@@ -44,6 +48,7 @@ public class GaslightButton : MonoBehaviour
         if (isPressed && GetValue() - threshold <= 0){
             Released();
         }
+       
     }
 
     private float GetValue(){
