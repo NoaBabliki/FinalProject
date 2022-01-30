@@ -22,8 +22,8 @@ public class GameManager : MonoBehaviour
         if (successCount == overallSuccess){
             Gaslamp.gaslightNumberOn = 0;
             Light lightIntencity = largeSpot.GetComponent<Light>();
-            if (lightIntencity.intensity < 3.0f){
-                lightIntencity.intensity += Time.deltaTime;
+            if (lightIntencity.intensity < 1.0f){
+                lightIntencity.intensity += 0.5f * Time.deltaTime;  // Time.deltaTime = time[s] from last frame
             }
             Debug.Log("ITS A WIN");
             MainAudio.StopAll();

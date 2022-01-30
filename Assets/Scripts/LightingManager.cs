@@ -33,17 +33,15 @@ public class LightingManager : MonoBehaviour
 			closeEnoughRotation(lightSource.rotation, requiredRotation)	)
 		{
 			Debug.Log(successShape.name + " detected!");
-			successShapeMesh.enabled = true;
 			if (addSuccess){
 				GameManager.AddSuccess();
 				successAudio.Play();
+				successShapeMesh.enabled = true;
 				addSuccess = false;
 			}
-			
 		}
 		if (Gaslamp.gaslightNumberOn != gaslumpNumber) {
 				Debug.Log("suppose to get rid of shadow");
-				successShapeMesh.enabled = false;
 			}
 		
     }
