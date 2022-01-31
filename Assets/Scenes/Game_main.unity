@@ -3039,7 +3039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &816999437
 Light:
   m_ObjectHideFlags: 0
@@ -3595,7 +3595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overallSuccess: 3
   largeSpot: {fileID: 799168875}
-  successSkybox: {fileID: 2100000, guid: c6dfe7a883490fb4591d1b1fc0e3926f, type: 2}
+  successSkybox: {fileID: 2100000, guid: 55ef724309a81e246b400c9c904efa7a, type: 2}
   winAudio: {fileID: 846665216}
 --- !u!4 &1020023836
 Transform:
@@ -4425,6 +4425,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8799148148785109099, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66760759125f3e14fa0d4f9a104b8f17, type: 2}
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Name
       value: GaslampClock
@@ -4788,6 +4792,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8799148148785109099, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2b39806d8ccd9a4db8e0ceefb036824, type: 2}
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Name
       value: GaslampPainting
@@ -5929,6 +5937,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8799148148785109099, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3f0aa940f37298947ba149828a447def, type: 2}
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Name
       value: GaslampThrone
