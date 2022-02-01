@@ -9,18 +9,18 @@ public class GaslightButton : MonoBehaviour
     [SerializeField] private float deadZone = 0.025f;
     [SerializeField] private int gaslampNumber;
     [SerializeField] private AudioSource switchSound;
-
- 
+    //[SerializeField] private SpringJoint joint;
+    
+    private float distanceWhenPressed = 0.00678f;
     private bool isPressed;
     private Vector3 startPos;
-    private ConfigurableJoint joint;
+    
     //public UnityEvent onPressed, onReleased;
     // Start is called before the first frame update
     void Start()
     {
         startPos = transform.localPosition;
-        joint = GetComponent<ConfigurableJoint>();
-   
+        //joint = GetComponent<ConfigurableJoint>();
     }
 
     private void Pressed(){
@@ -52,7 +52,7 @@ public class GaslightButton : MonoBehaviour
     }
 
     private float GetValue(){
-        var value = Vector3.Distance(startPos, transform.localPosition) / joint.linearLimit.limit;
+        var value = Vector3.Distance(startPos, transform.localPosition) / distanceWhenPressed; // / joint.linearLimit.limit;
         if (Mathf.Abs(value) < deadZone){
             value = 0;
         }

@@ -12,7 +12,7 @@ public class Gaslamp : MonoBehaviour
     [SerializeField] private Light gaslight;
     [SerializeField] private Transform clue;
     [SerializeField] private Transform statue;
-    [SerializeField] private Transform shadow;
+    //[SerializeField] private Transform shadow;
     [SerializeField] private float originalTimeUntilClue = 200f;
     [SerializeField] private AudioSource dropAudio;
 
@@ -36,7 +36,7 @@ public class Gaslamp : MonoBehaviour
         else{
             gaslight.enabled = false;
             statueMesh.enabled = false;
-            shadow.GetComponent<MeshRenderer>().enabled = false;
+            //shadow.GetComponent<MeshRenderer>().enabled = false;
         }
         
     }
@@ -45,7 +45,6 @@ public class Gaslamp : MonoBehaviour
     void Update()
     {   
         AutoSwitch();
-
     }
 
     //switch on by turned, every time a mission ends, the next light is turned on and
