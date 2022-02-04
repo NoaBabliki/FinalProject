@@ -15,6 +15,7 @@ public class Gaslamp : MonoBehaviour
     //[SerializeField] private Transform shadow;
     [SerializeField] private float originalTimeUntilClue = 200f;
     [SerializeField] private AudioSource dropAudio;
+    [SerializeField] private Light decorativeLightSpot;
 
     private float timeUntilClue;
     static public int gaslightNumberOn = 1;
@@ -32,10 +33,12 @@ public class Gaslamp : MonoBehaviour
         if (gaslightNumber == 1){
             gaslight.enabled = true;
             statueMesh.enabled = true;
+            decorativeLightSpot.enabled = true;
         }
         else{
             gaslight.enabled = false;
             statueMesh.enabled = false;
+            decorativeLightSpot.enabled = false;
             //shadow.GetComponent<MeshRenderer>().enabled = false;
         }
         
@@ -54,11 +57,13 @@ public class Gaslamp : MonoBehaviour
             gaslight.enabled = false;
             clueMesh.enabled = false;
             statueMesh.enabled = false;
+            decorativeLightSpot.enabled = false;
             timeUntilClue = originalTimeUntilClue;
         }
         else {
             gaslight.enabled = true;
             statueMesh.enabled = true;
+            decorativeLightSpot.enabled = true;
             if (timeUntilClue > 0){
                 timeUntilClue -= Time.deltaTime;
             }
