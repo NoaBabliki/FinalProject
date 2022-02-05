@@ -15,11 +15,20 @@ public class GaslightButton : MonoBehaviour
     private float distanceWhenPressed = 0.0075f;
     private bool isPressed;
     private Vector3 startPos;
+
+    // private Vector3 pushedPos;
     
     //public UnityEvent onPressed, onReleased;
     // Start is called before the first frame update
     void Start()
     {
+        // //First, Find the Parent Object which is either EnemyObject or EnemyObject(Clone)
+        // Transform button = transform.parent;
+        // Transform buttonSpring = button.parent;
+        // //Now, Find it's Enemy Object
+        // GameObject wantedPosGO = buttonSpring.FindChild("PushedPosition").gameObject;
+        // pushedPos = wantedPosGO.transform;
+
         startPos = transform.parent.localPosition;//transform.localPosition;
         //joint = GetComponent<ConfigurableJoint>();
     }
@@ -43,7 +52,16 @@ public class GaslightButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool isCurrentlyPressed;
+        // bool isCurrentlyPressed;
+        // dist = Vector3.Distance(pushedPos, transform.parent.localPosition);
+        // if (dist < 0.03)
+        // {
+        //     isCurrentlyPressed = true;
+        // }
+        // else
+        // {
+        //     isCurrentlyPressed = false;
+        // }
         if ((transform.parent.localPosition.y - startPos.y) > distanceWhenPressed)
         {
             isCurrentlyPressed = true;
