@@ -977,6 +977,36 @@ MonoBehaviour:
   rotationAngleRequired: 40
   successAudio: {fileID: 563770686}
   gaslumpNumber: 3
+--- !u!1 &254091640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254091641}
+  m_Layer: 10
+  m_Name: ButtonBrother
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &254091641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254091640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1462070665}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320541222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1462,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &422607063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 32721307784923289, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+  m_PrefabInstance: {fileID: 1609296057719148256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &469324476
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,6 +3171,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &982882549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982882550}
+  m_Layer: 10
+  m_Name: ButtonBrother
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &982882550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982882549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1449261695}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020023834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3198,6 +3263,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ActionAssets: []
+--- !u!1 &1093696494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1093696495}
+  m_Layer: 10
+  m_Name: ButtomBrother
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1093696495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093696494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422607063}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1207277045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3690,9 +3785,13 @@ PrefabInstance:
       propertyPath: gaslampNumber
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: brotherButtonElement
+      value: 
+      objectReference: {fileID: 982882549}
     - target: {fileID: 7713405120869483008, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4008,6 +4107,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1449261695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 32721307784923289, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+  m_PrefabInstance: {fileID: 1371590758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1462070665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 32721307784923289, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+  m_PrefabInstance: {fileID: 1645225567}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1645225567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4055,6 +4164,10 @@ PrefabInstance:
       propertyPath: switchSound
       value: 
       objectReference: {fileID: 84857234}
+    - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: brotherButtonElement
+      value: 
+      objectReference: {fileID: 254091640}
     - target: {fileID: 7713405120869483008, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4791,7 +4904,7 @@ MeshCollider:
   m_GameObject: {fileID: 764271391407795040}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -5106,6 +5219,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6c7cf0e549991484ba087dec157517d5, type: 2}
+    - target: {fileID: 2398679359439815471, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_Constraints
+      value: 122
+      objectReference: {fileID: 0}
     - target: {fileID: 3045541200003388079, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5120,7 +5237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6577112932639742066, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 2.3792
+      value: 1.9792
       objectReference: {fileID: 0}
     - target: {fileID: 6577112932639742066, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_ConnectedAnchor.z
@@ -5134,14 +5251,22 @@ PrefabInstance:
       propertyPath: gaslampNumber
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: brotherButtonElement
+      value: 
+      objectReference: {fileID: 1093696494}
     - target: {fileID: 7713405120869483008, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3f0aa940f37298947ba149828a447def, type: 2}
+    - target: {fileID: 8250749392664880257, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8250749392664880287, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: clue
       value: 
@@ -5172,7 +5297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5359,7 +5484,7 @@ MeshCollider:
   m_GameObject: {fileID: 2966443661813222852}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
