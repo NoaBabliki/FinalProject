@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class GaslightButton : MonoBehaviour
 {
 
-    [SerializeField] private float threshold = 0.1f;
+    //[SerializeField] private float threshold = 0.1f;
     [SerializeField] private float deadZone = 0.025f;
     [SerializeField] private int gaslampNumber;
     [SerializeField] private AudioSource switchSound;
@@ -52,7 +52,7 @@ public class GaslightButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // bool isCurrentlyPressed;
+        bool isCurrentlyPressed;
         // dist = Vector3.Distance(pushedPos, transform.parent.localPosition);
         // if (dist < 0.03)
         // {

@@ -6,11 +6,11 @@ public class ButtonController : MonoBehaviour
 {
     [SerializeField] private Animator Button = null;
 
-    [SerializeField] private bool downTrigger = false;
-    [SerializeField] private bool upTrigger = false;
+  //  [SerializeField] private bool downTrigger = false;
+ //   [SerializeField] private bool upTrigger = false;
 
-    [SerializeField] private string buttonDown = "ButtonPressDown";
-    [SerializeField] private string buttonUp = "ButtonPressUp";
+  //  [SerializeField] private string buttonDown = "ButtonPressDown";
+   // [SerializeField] private string buttonUp = "ButtonPressUp";
 
     // Start is called before the first frame update
     void Start()
