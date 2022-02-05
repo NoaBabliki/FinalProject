@@ -903,7 +903,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230685714}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
   m_Name: 
@@ -916,7 +916,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230685714}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
   m_Name: 
@@ -3777,6 +3777,10 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7157282399975748013, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: switchSound
       value: 
@@ -3791,6 +3795,18 @@ PrefabInstance:
       objectReference: {fileID: 982882549}
     - target: {fileID: 7713405120869483008, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 2.36102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
@@ -3835,7 +3851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3876,6 +3892,10 @@ PrefabInstance:
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Name
       value: GaslampClock
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
@@ -4160,6 +4180,10 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7157282399975748013, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: switchSound
       value: 
@@ -4171,6 +4195,18 @@ PrefabInstance:
     - target: {fileID: 7713405120869483008, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 2.36102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4202,7 +4238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4243,6 +4279,10 @@ PrefabInstance:
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Name
       value: GaslampPainting
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
@@ -5237,11 +5277,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6577112932639742066, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 1.9792
+      value: 2.3792
       objectReference: {fileID: 0}
     - target: {fileID: 6577112932639742066, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157282399975748013, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: switchSound
@@ -5257,6 +5301,18 @@ PrefabInstance:
       objectReference: {fileID: 1093696494}
     - target: {fileID: 7713405120869483008, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 2.36102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757066842158161713, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_ConnectedAnchor.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
@@ -5297,7 +5353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433612242610684781, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5338,6 +5394,10 @@ PrefabInstance:
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Name
       value: GaslampThrone
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}

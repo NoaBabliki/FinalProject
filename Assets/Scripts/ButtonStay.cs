@@ -7,8 +7,8 @@ public class ButtonStay : MonoBehaviour
 
     private Vector3 startPos;
     private float maxYDistance = 0.001f;
-    private float maxXDistance = 0.005f;
-    private float maxZDistance = 0.005f;
+    private float maxXDistance = 0.001f;
+    private float maxZDistance = 0.001f;
 
     private float maxDownDistance = -0.05f;
     // Start is called before the first frame update

@@ -16,24 +16,24 @@ public class GaslightButton : MonoBehaviour
     //[SerializeField] private SpringJoint joint;
     
     private float distanceWhenPressed = 0.0075f;
-    private bool isPressed;
+    private bool isPressed = false;
     private Vector3 startPos;
 
-    // private Vector3 pushedPos;
+    private Vector3 pushedPos;
     
     //public UnityEvent onPressed, onReleased;
     // Start is called before the first frame update
     void Start()
     {
-        // //First, Find the Parent Object which is either EnemyObject or EnemyObject(Clone)
-        // Transform button = transform.parent;
-        // Transform buttonSpring = button.parent;
-        // //Now, Find it's Enemy Object
-        // GameObject wantedPosGO = buttonSpring.FindChild("PushedPosition").gameObject;
-        // pushedPos = wantedPosGO.transform;
+        //First, Find the Parent Object which is either EnemyObject or EnemyObject(Clone)
+        Transform button = transform.parent;
+        Transform buttonSpring = button.parent;
+        //Now, Find it's Enemy Object
+        GameObject wantedPosGameObject = buttonSpring.Find("ButtonPushed").gameObject;
+        pushedPos = wantedPosGameObject.transform.localPosition;
 
-        startPos = transform.parent.localPosition;//transform.localPosition;
-        //joint = GetComponent<ConfigurableJoint>();
+        // startPos = transform.parent.localPosition;//transform.localPosition;
+        // //joint = GetComponent<ConfigurableJoint>();
     }
 
     private void Pressed(){
@@ -42,6 +42,13 @@ public class GaslightButton : MonoBehaviour
             Gaslamp.gaslightNumberOn = gaslampNumber;
             switchSound.Play();
             Debug.Log("pressed" + gaslampNumber);
+        }
+        else 
+        {
+            isPressed = true;
+            Gaslamp.gaslightNumberOn = 0;
+            switchSound.Play();
+            Debug.Log("unPressed" + gaslampNumber);
         }
         
     }
@@ -56,16 +63,8 @@ public class GaslightButton : MonoBehaviour
     void Update()
     {
         bool isCurrentlyPressed;
-        // dist = Vector3.Distance(pushedPos, transform.parent.localPosition);
-        // if (dist < 0.03)
-        // {
-        //     isCurrentlyPressed = true;
-        // }
-        // else
-        // {
-        //     isCurrentlyPressed = false;
-        // }
-        if ((transform.parent.localPosition.y - brotherButtonElement.transform.localPosition.y) > distanceWhenPressed)
+        float dist = Vector3.Distance(pushedPos, transform.parent.localPosition);
+        if (dist < 0.003)
         {
             isCurrentlyPressed = true;
         }
@@ -73,6 +72,15 @@ public class GaslightButton : MonoBehaviour
         {
             isCurrentlyPressed = false;
         }
+
+        // if ((transform.parent.localPosition.y - brotherButtonElement.transform.localPosition.y) > distanceWhenPressed)
+        // {
+        //     isCurrentlyPressed = true;
+        // }
+        // else
+        // {
+        //     isCurrentlyPressed = false;
+        // }
         if (!isPressed && isCurrentlyPressed)
         {
             Pressed();
@@ -81,6 +89,7 @@ public class GaslightButton : MonoBehaviour
         {
             Released();
         }
+
         // if (!isPressed && GetValue() + threshold >= 1){
         //     Pressed();
         // }
