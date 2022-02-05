@@ -6,9 +6,11 @@ public class ButtonStay : MonoBehaviour
 {
 
     private Vector3 startPos;
-    private float maxYDistance = 0.0085f;
+    private float maxYDistance = 0.001f;
     private float maxXDistance = 0.005f;
     private float maxZDistance = 0.005f;
+
+    private float maxDownDistance = -0.05f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,8 @@ public class ButtonStay : MonoBehaviour
     {
          if ((Mathf.Abs(transform.localPosition.x - startPos.x) > maxXDistance) ||
           (Mathf.Abs(transform.localPosition.z - startPos.z) > maxZDistance) ||
-           (transform.localPosition.y - startPos.y > maxYDistance)){
+           (transform.localPosition.y - startPos.y > maxYDistance) ||
+            (transform.localPosition.y - startPos.y < maxDownDistance)){
             transform.localPosition = startPos;
             Debug.Log("out of place");
         }

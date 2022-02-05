@@ -18,7 +18,7 @@ public class Gaslamp : MonoBehaviour
     [SerializeField] private Light decorativeLightSpot;
 
     private float timeUntilClue;
-    static public int gaslightNumberOn = 1;
+    static public int gaslightNumberOn = 0;
     private int countFloorCollisions = 0;
     MeshRenderer clueMesh;
     MeshRenderer statueMesh;
@@ -30,18 +30,13 @@ public class Gaslamp : MonoBehaviour
         statueMesh = statue.GetComponent<MeshRenderer>();
         clueMesh = clue.GetComponent<MeshRenderer>();
         clueMesh.enabled = false;
-        if (gaslightNumber == 1){
-            gaslight.enabled = true;
-            statueMesh.enabled = true;
-            decorativeLightSpot.enabled = true;
-        }
-        else{
-            gaslight.enabled = false;
-            statueMesh.enabled = false;
-            decorativeLightSpot.enabled = false;
-            //shadow.GetComponent<MeshRenderer>().enabled = false;
-        }
         
+        
+        gaslight.enabled = false;
+        statueMesh.enabled = false;
+        decorativeLightSpot.enabled = false;
+        //shadow.GetComponent<MeshRenderer>().enabled = false;
+    
     }
 
     // Update is called once per frame

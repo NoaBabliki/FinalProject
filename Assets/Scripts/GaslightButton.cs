@@ -10,6 +10,9 @@ public class GaslightButton : MonoBehaviour
     [SerializeField] private float deadZone = 0.025f;
     [SerializeField] private int gaslampNumber;
     [SerializeField] private AudioSource switchSound;
+
+    [SerializeField] private GameObject brotherButtonElement;
+
     //[SerializeField] private SpringJoint joint;
     
     private float distanceWhenPressed = 0.0075f;
@@ -62,7 +65,7 @@ public class GaslightButton : MonoBehaviour
         // {
         //     isCurrentlyPressed = false;
         // }
-        if ((transform.parent.localPosition.y - startPos.y) > distanceWhenPressed)
+        if ((transform.parent.localPosition.y - brotherButtonElement.transform.localPosition.y) > distanceWhenPressed)
         {
             isCurrentlyPressed = true;
         }
