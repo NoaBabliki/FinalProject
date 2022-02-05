@@ -6,6 +6,9 @@ public class ButtonStay : MonoBehaviour
 {
 
     private Vector3 startPos;
+    private float maxYDistance = 0.0085f;
+    private float maxXDistance = 0.005f;
+    private float maxZDistance = 0.005f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +19,9 @@ public class ButtonStay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if ((Mathf.Abs(transform.localPosition.x - startPos.x) > 0.001f) ||
-          (Mathf.Abs(transform.localPosition.z - startPos.z) > 0.001f) ||
-           (transform.localPosition.y - startPos.y > 0.01f)){
+         if ((Mathf.Abs(transform.localPosition.x - startPos.x) > maxXDistance) ||
+          (Mathf.Abs(transform.localPosition.z - startPos.z) > maxZDistance) ||
+           (transform.localPosition.y - startPos.y > maxYDistance)){
             transform.localPosition = startPos;
             Debug.Log("out of place");
         }
@@ -26,9 +29,6 @@ public class ButtonStay : MonoBehaviour
     }
 
     private void OnCollisionStay(Collision other) {
-        
         Debug.Log("stay + " + other.gameObject.name);
-        
-       
     }
 }

@@ -12,7 +12,7 @@ public class GaslightButton : MonoBehaviour
     [SerializeField] private AudioSource switchSound;
     //[SerializeField] private SpringJoint joint;
     
-    private float distanceWhenPressed = 0.000000000001f;
+    private float distanceWhenPressed = 0.0075f;
     private bool isPressed;
     private Vector3 startPos;
     
@@ -20,7 +20,7 @@ public class GaslightButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startPos = transform.localPosition;
+        startPos = transform.parent.localPosition;//transform.localPosition;
         //joint = GetComponent<ConfigurableJoint>();
     }
 
@@ -43,13 +43,29 @@ public class GaslightButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isPressed && GetValue() + threshold >= 1){
+        bool isCurrentlyPressed;
+        if ((transform.parent.localPosition.y - startPos.y) > distanceWhenPressed)
+        {
+            isCurrentlyPressed = true;
+        }
+        else
+        {
+            isCurrentlyPressed = false;
+        }
+        if (!isPressed && isCurrentlyPressed)
+        {
             Pressed();
         }
-        if (isPressed && GetValue() - threshold <= 0){
+        if (isPressed && !isCurrentlyPressed)
+        {
             Released();
         }
-
+        // if (!isPressed && GetValue() + threshold >= 1){
+        //     Pressed();
+        // }
+        // if (isPressed && GetValue() - threshold <= 0){
+        //     Released();
+        // }
        
     }
 

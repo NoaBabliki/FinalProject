@@ -3510,6 +3510,10 @@ PrefabInstance:
       propertyPath: switchSound
       value: 
       objectReference: {fileID: 84857234}
+    - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: gaslampNumber
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3534,6 +3538,10 @@ PrefabInstance:
       propertyPath: dropAudio
       value: 
       objectReference: {fileID: 69539374}
+    - target: {fileID: 8250749392664880287, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: gaslightNumber
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8250749392664880287, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: decorativeLightSpot
       value: 
@@ -4368,8 +4376,8 @@ MonoBehaviour:
   lightSource: {fileID: 1374207142}
   lightSourceTarget: {fileID: 3206473181228266121}
   successShape: {fileID: 5058348348640900903}
-  positionDistanceRequired: 0.8
-  rotationAngleRequired: 1.5
+  positionDistanceRequired: 1.5
+  rotationAngleRequired: 40
   successAudio: {fileID: 563770686}
   gaslumpNumber: 1
 --- !u!1 &174151667074703504
@@ -4879,6 +4887,10 @@ PrefabInstance:
       propertyPath: switchSound
       value: 
       objectReference: {fileID: 84857234}
+    - target: {fileID: 7650393027960437234, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: gaslampNumber
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8250749392043797649, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4895,6 +4907,10 @@ PrefabInstance:
       propertyPath: dropAudio
       value: 
       objectReference: {fileID: 69539374}
+    - target: {fileID: 8250749392664880287, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: gaslightNumber
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8250749392664880287, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: decorativeLightSpot
       value: 
