@@ -9,16 +9,9 @@ public class ButtonStay : MonoBehaviour
     private float maxYDistance = 0.0085f;
     private float maxXDistance = 0.005f;
     private float maxZDistance = 0.005f;
-    private Vector3 pushedPos;
     // Start is called before the first frame update
     void Start()
     {
-        //First, Find the Parent Object which is either EnemyObject or EnemyObject(Clone)
-        Transform button = transform.parent;
-        Transform buttonSpring = button.parent;
-        //Now, Find it's Enemy Object
-        GameObject wantedPosGO = buttonSpring.FindChild("PushedPosition").gameObject;
-        pushedPos = wantedPosGO.transform;
         startPos = transform.localPosition;
         
     }
