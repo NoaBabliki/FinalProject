@@ -30,7 +30,7 @@ public class LightingManager : MonoBehaviour
     void Update()
     {
         if (closeEnoughPosition(lightSource.position, requiredPosition) &&
-			closeEnoughRotation(lightSource.rotation, requiredRotation)	)
+			closeEnoughRotation(lightSource.rotation, requiredRotation)	&& gaslumpNumber == Gaslamp.gaslightNumberOn)
 		{
 			Debug.Log(successShape.name + " detected!");
 			if (addSuccess){
