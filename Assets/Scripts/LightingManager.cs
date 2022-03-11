@@ -34,7 +34,8 @@ public class LightingManager : MonoBehaviour
 		{
 			Debug.Log(successShape.name + " detected!");
 			if (addSuccess){
-				GameManager.AddSuccess();
+				GameManager.AddSuccess(gaslumpNumber);
+				// GameManager.AddSuccess();
 				successAudio.Play();
 				successShapeMesh.enabled = true;
 				addSuccess = false;
