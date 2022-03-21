@@ -386,6 +386,27 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b2df6b8a59b66984380d5f22c4b92d6a, type: 2}
+  - {fileID: 11400000, guid: b21d8141a4c725c4f8c5a31b451240ac, type: 2}
+  - {fileID: 0}
+  - {fileID: -4927610022436959160, guid: 5db140cac32ff5d44b3c7f7d3c14cf41, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -403,7 +424,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.FinalProject
+    Android: com.FXR_group2.TheMustacheMan
     Standalone: com.DefaultCompany.FinalProject
   buildNumber:
     Standalone: 0
@@ -973,6 +994,7 @@ PlayerSettings:
   assemblyVersionValidation: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform:
+    Android: 3
     Standalone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1

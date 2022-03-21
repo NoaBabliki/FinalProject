@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 0786ca9a07851264a9caad1be18a7d11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1665968602732752600
+    second: Ants Entry_0
+  - first:
+      213: 5175865745620899368
+    second: Ants Entry_1
+  - first:
+      213: 4413143813446542245
+    second: Ants Entry_2
+  - first:
+      213: 4251588433671731079
+    second: Ants Entry_3
+  - first:
+      213: 251694824565265062
+    second: Ants Entry_4
+  - first:
+      213: 6653216131357082948
+    second: Ants Entry_5
+  - first:
+      213: -1921275562196336402
+    second: Ants Entry_6
+  - first:
+      213: 7255264103292899567
+    second: Ants Entry_7
+  - first:
+      213: -313781567748753039
+    second: Ants Entry_8
+  - first:
+      213: -5840540456922035344
+    second: Ants Entry_9
+  - first:
+      213: -8692512950301320294
+    second: Ants Entry_10
+  - first:
+      213: 4023979466400466350
+    second: Ants Entry_11
+  - first:
+      213: -5640750230864685834
+    second: Ants Entry_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ants Entry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6032
+        width: 2929
+        height: 2969
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dee6d41e95be1710800000000000000
+      internalID: 1665968602732752600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_1
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 6013
+        width: 3052
+        height: 2988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82698d4097e54d740800000000000000
+      internalID: 5175865745620899368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_2
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 6013
+        width: 2983
+        height: 2988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3a13f9ae2ae3d30800000000000000
+      internalID: 4413143813446542245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_3
+      rect:
+        serializedVersion: 2
+        x: 8971
+        y: 6081
+        width: 3013
+        height: 2920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787b920972da00b30800000000000000
+      internalID: 4251588433671731079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_4
+      rect:
+        serializedVersion: 2
+        x: 12005
+        y: 6101
+        width: 3052
+        height: 2900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a254020c133e7300800000000000000
+      internalID: 251694824565265062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3093
+        width: 2850
+        height: 2921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445007b32d8f45c50800000000000000
+      internalID: 6653216131357082948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_6
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 3244
+        width: 2992
+        height: 2720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee006a73e024655e0800000000000000
+      internalID: -1921275562196336402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_7
+      rect:
+        serializedVersion: 2
+        x: 6148
+        y: 3113
+        width: 2689
+        height: 2780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe09a6c0340efa460800000000000000
+      internalID: 7255264103292899567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_8
+      rect:
+        serializedVersion: 2
+        x: 9163
+        y: 3415
+        width: 2800
+        height: 2468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179354d935935abf0800000000000000
+      internalID: -313781567748753039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_9
+      rect:
+        serializedVersion: 2
+        x: 12064
+        y: 3183
+        width: 2720
+        height: 2741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b4dd0266b32fea0800000000000000
+      internalID: -5840540456922035344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 185
+        width: 2478
+        height: 2720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b9ecfc68dfd5780800000000000000
+      internalID: -8692512950301320294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_11
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 205
+        width: 2700
+        height: 2690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea50446310c08d730800000000000000
+      internalID: 4023979466400466350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ants Entry_12
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 305
+        width: 2659
+        height: 2600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f49b9e0d8708b1b0800000000000000
+      internalID: -5640750230864685834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 747546080711460408b9d54710ec0dc8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

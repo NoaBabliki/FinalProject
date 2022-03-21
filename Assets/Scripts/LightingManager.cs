@@ -7,7 +7,7 @@ public class LightingManager : MonoBehaviour
 	[SerializeField] private Transform lightSource;
 	[SerializeField] private Transform lightSourceTarget;
 	[SerializeField] private GameObject successShape;
-	
+	[SerializeField] private GameObject clue;
 	[SerializeField] private float positionDistanceRequired = 0.6f;
 	[SerializeField] private float rotationAngleRequired = 10f;
 	[SerializeField] private AudioSource successAudio;
@@ -33,9 +33,11 @@ public class LightingManager : MonoBehaviour
 			closeEnoughRotation(lightSource.rotation, requiredRotation)	&& gaslumpNumber == Gaslamp.gaslightNumberOn)
 		{
 			Debug.Log(successShape.name + " detected!");
-			if (addSuccess){
+			if (addSuccess)
+			{
 				GameManager.AddSuccess(gaslumpNumber);
 				// GameManager.AddSuccess();
+				clue.GetComponent<Animator>().SetBool("NeedHint", false);
 				successAudio.Play();
 				successShapeMesh.enabled = true;
 				addSuccess = false;

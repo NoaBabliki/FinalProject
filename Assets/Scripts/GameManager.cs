@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private int overallSuccess = 3;
+    // [SerializeField] private int overallSuccess = 3;
     [SerializeField] private Light largeSpot;
     [SerializeField] private Light directionalSpot;
     [SerializeField] private Material successSkybox;
     [SerializeField] private AudioSource winAudio;
     [SerializeField] private GameObject successObject;
     [SerializeField] private GameObject[] sculptures;
-    private static GameObject[] objectsForMainGame = new GameObject[5];
+    [SerializeField] private static int numberOfStage = 6;
+    private static GameObject[,] objectsForMainGame = new GameObject[numberOfStage,2];
     static private int successCount = 0;
     private Light _spotLightIntencity;
     private Light _directionalLightIntencity;
@@ -33,13 +34,14 @@ public class GameManager : MonoBehaviour
         successObject.SetActive(false);
         initiateObjectsForMainGame();
         SetMainGameObjectsActive(false);
+        SetMainGameObjectsActive(true, 1);
     }
 
     // Update is called once per frame
     void Update()
     {
         // check win
-        if (successCount == overallSuccess)
+        if (successCount == numberOfStage)
         {
             if (!_winFlag)
             {
@@ -76,27 +78,59 @@ public class GameManager : MonoBehaviour
 
     private static void initiateObjectsForMainGame() 
     {
-        objectsForMainGame[0] = GameObject.Find("Gaslamps/GaslampMustache");
-        objectsForMainGame[1] = GameObject.Find("Gaslamps/GaslampCockroach");
-        objectsForMainGame[2] = GameObject.Find("DaliStudio/Sculptures/Mustache_2");
-        objectsForMainGame[3] = GameObject.Find("DaliStudio/Sculptures/Cockroach_3");
-        objectsForMainGame[4] = GameObject.Find("LightAfterFirstSuccess");
+        for (int i = 1; i <= objectsForMainGame.GetLength(0); i++)
+        {
+            GameObject [] currGameObjects = GameObject.FindGameObjectsWithTag("Stage_" + i.ToString());
+            if (currGameObjects.Length != 2)
+            {
+                Debug.Log("Wrong number of object for stage " + i.ToString() + ". Got " + currGameObjects.Length.ToString() + " items.");
+            }
+            for (int j = 0; j < currGameObjects.Length; j ++)
+            {
+                Debug.Log("Got " + currGameObjects[j].name);
+                objectsForMainGame[i - 1, j] = currGameObjects[j];
+            }
+            // objectsForMainGame[i - 1] = currGameObjects;
+        }
+        // objectsForMainGame[0] = GameObject.Find("Gaslamps/GaslampMustache");
+        // objectsForMainGame[1] = GameObject.Find("Gaslamps/GaslampCockroach");
+        // objectsForMainGame[2] = GameObject.Find("DaliStudio/Sculptures/Mustache_2");
+        // objectsForMainGame[3] = GameObject.Find("DaliStudio/Sculptures/Cockroach_3");
+        // objectsForMainGame[4] = GameObject.Find("LightAfterFirstSuccess");
     }
 
-    private static void SetMainGameObjectsActive(bool activeValue)
+    // no stage means for all stages
+    private static void SetMainGameObjectsActive(bool activeValue, int stage = -1)
     {
-        for(int i = 0; i < objectsForMainGame.Length; i++)
+        Debug.Log("Number of rows: " + objectsForMainGame.GetLength(0).ToString());
+        Debug.Log("Number of cols: " + objectsForMainGame.GetLength(1).ToString());
+        for (int i = 0; i < objectsForMainGame.GetLength(0); i++)
         {
-            objectsForMainGame[i].SetActive(activeValue);
+            if (stage == (i + 1) || stage == -1)
+            {
+                for(int j = 0; j < objectsForMainGame.GetLength(1); j++)
+                {
+                    Debug.Log("i = " + i.ToString() + ", j = " + j.ToString() + ", item = " + objectsForMainGame[i, j].name);
+                    objectsForMainGame[i, j].SetActive(activeValue);
+                    if (activeValue)
+                    {
+                        Debug.Log("Setting " + objectsForMainGame[i, j] + "active");
+                    }
+                    else
+                    {
+                        Debug.Log("Setting " + objectsForMainGame[i, j] + "inactive");
+                    }
+                }
+            }
         }
     }
 
     public static void AddSuccess(int gaslumpNumber)
     // public static void AddSuccess() 
     {
-        if (gaslumpNumber == 1) 
+        if (gaslumpNumber != numberOfStage) 
         {
-            SetMainGameObjectsActive(true);
+            SetMainGameObjectsActive(true, gaslumpNumber + 1);
         }
         successCount += 1;
     }

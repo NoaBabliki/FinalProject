@@ -7,6 +7,12 @@ TagManager:
   - PowerSource
   - Gaslight
   - Floor
+  - Stage_1
+  - Stage_2
+  - Stage_3
+  - Stage_4
+  - Stage_5
+  - Stage_6
   layers:
   - Default
   - TransparentFX
@@ -24,9 +30,9 @@ TagManager:
   - RightHandPhysics
   - Button
   - Success
-  - 
-  - 
-  - 
+  - SculptureSpoon
+  - SculptureDeer
+  - SculptureBuilding
   - 
   - 
   - 

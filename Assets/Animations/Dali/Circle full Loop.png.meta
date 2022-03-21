@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 254c91233923b0742892bc856fa48f3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 223656836536904646
+    second: Circle full Loop_0
+  - first:
+      213: 6556026316682499815
+    second: Circle full Loop_1
+  - first:
+      213: -4564870161128157396
+    second: Circle full Loop_2
+  - first:
+      213: -8343358502897971288
+    second: Circle full Loop_3
+  - first:
+      213: 7625534795380606969
+    second: Circle full Loop_4
+  - first:
+      213: 617063242601245484
+    second: Circle full Loop_5
+  - first:
+      213: 7169560296260364017
+    second: Circle full Loop_6
+  - first:
+      213: -4694935184827735792
+    second: Circle full Loop_7
+  - first:
+      213: -2396523957749706767
+    second: Circle full Loop_8
+  - first:
+      213: 3963849933028923003
+    second: Circle full Loop_9
+  - first:
+      213: -4313983002050100413
+    second: Circle full Loop_10
+  - first:
+      213: 4314396862373729843
+    second: Circle full Loop_11
+  - first:
+      213: -9181100233580037806
+    second: Circle full Loop_12
+  - first:
+      213: -6045016024238622362
+    second: Circle full Loop_13
+  - first:
+      213: -7133758037512937711
+    second: Circle full Loop_14
+  - first:
+      213: -5041790372313730626
+    second: Circle full Loop_15
+  - first:
+      213: 1457072739378903873
+    second: Circle full Loop_16
+  - first:
+      213: 9092237806565096067
+    second: Circle full Loop_17
+  - first:
+      213: 5315993313157570386
+    second: Circle full Loop_18
+  - first:
+      213: 5297292713422347188
+    second: Circle full Loop_19
+  - first:
+      213: -2524600516458314034
+    second: Circle full Loop_20
+  - first:
+      213: -8084491346815038450
+    second: Circle full Loop_21
+  - first:
+      213: -5980627988723639908
+    second: Circle full Loop_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Circle full Loop_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 8765
+        width: 2544
+        height: 3069
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbae5535b69a1300800000000000000
+      internalID: 223656836536904646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_1
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 8796
+        width: 2293
+        height: 3016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e619ff133fabfa50800000000000000
+      internalID: 6556026316682499815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_2
+      rect:
+        serializedVersion: 2
+        x: 4997
+        y: 8891
+        width: 2418
+        height: 2858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f0d2036c256a0c0800000000000000
+      internalID: -4564870161128157396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_3
+      rect:
+        serializedVersion: 2
+        x: 7447
+        y: 8985
+        width: 2450
+        height: 2733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af080985af663c80800000000000000
+      internalID: -8343358502897971288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_4
+      rect:
+        serializedVersion: 2
+        x: 9928
+        y: 9173
+        width: 2419
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ca0d9e7753d960800000000000000
+      internalID: 7625534795380606969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_5
+      rect:
+        serializedVersion: 2
+        x: 12410
+        y: 9048
+        width: 2890
+        height: 2638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ba233ffbf309800800000000000000
+      internalID: 617063242601245484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6221
+        width: 2544
+        height: 2324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6e75e7a156f7360800000000000000
+      internalID: 7169560296260364017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_7
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 6283
+        width: 2639
+        height: 2262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112cd0035d38deb0800000000000000
+      internalID: -4694935184827735792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_8
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 6221
+        width: 2607
+        height: 2324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff8d926826ddbed0800000000000000
+      internalID: -2396523957749706767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_9
+      rect:
+        serializedVersion: 2
+        x: 7855
+        y: 6158
+        width: 2607
+        height: 2481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b761521438c620730800000000000000
+      internalID: 3963849933028923003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_10
+      rect:
+        serializedVersion: 2
+        x: 10525
+        y: 6032
+        width: 2639
+        height: 2702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3430bbbe057a124c0800000000000000
+      internalID: -4313983002050100413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_11
+      rect:
+        serializedVersion: 2
+        x: 13227
+        y: 6158
+        width: 2513
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33698d17611dfdb30800000000000000
+      internalID: 4314396862373729843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3142
+        width: 2641
+        height: 2639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259b43a2bfd269080800000000000000
+      internalID: -9181100233580037806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_13
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 3331
+        width: 2324
+        height: 2638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66976bd24f9cb1ca0800000000000000
+      internalID: -6045016024238622362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_14
+      rect:
+        serializedVersion: 2
+        x: 4997
+        y: 3362
+        width: 2418
+        height: 2576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f14747cdccffc90800000000000000
+      internalID: -7133758037512937711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_15
+      rect:
+        serializedVersion: 2
+        x: 7447
+        y: 3268
+        width: 2450
+        height: 2576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb171427e56f70ab0800000000000000
+      internalID: -5041790372313730626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_16
+      rect:
+        serializedVersion: 2
+        x: 9928
+        y: 3268
+        width: 2419
+        height: 2513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bb592cfef883410800000000000000
+      internalID: 1457072739378903873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_17
+      rect:
+        serializedVersion: 2
+        x: 12378
+        y: 3331
+        width: 2796
+        height: 2356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a70b1cc1e1e2e70800000000000000
+      internalID: 9092237806565096067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 441
+        width: 2576
+        height: 2513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fdb13c0c336c940800000000000000
+      internalID: 5315993313157570386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_19
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 504
+        width: 2639
+        height: 2513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbddc618a3c38940800000000000000
+      internalID: 5297292713422347188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_20
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 472
+        width: 2733
+        height: 2482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60cb8c431d6fcd0800000000000000
+      internalID: -2524600516458314034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_21
+      rect:
+        serializedVersion: 2
+        x: 8138
+        y: 409
+        width: 2764
+        height: 2513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cce5b14fd1ecf80800000000000000
+      internalID: -8084491346815038450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle full Loop_22
+      rect:
+        serializedVersion: 2
+        x: 10902
+        y: 409
+        width: 2764
+        height: 2388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c995e5ee78a800da0800000000000000
+      internalID: -5980627988723639908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cd3d6dd7918a2df438de54da8e1389f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
