@@ -141,7 +141,7 @@ public class GameManager : MonoBehaviour
     {
         if (gaslumpNumber != numberOfStage) 
         {
-            SetGaslampInactive(gaslumpNumber);
+            // SetGaslampInactive(gaslumpNumber);
             SetMainGameObjectsActive(true, gaslumpNumber + 1);
         }
         successCount += 1;
