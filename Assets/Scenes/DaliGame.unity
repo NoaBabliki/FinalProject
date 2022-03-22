@@ -6491,6 +6491,10 @@ PrefabInstance:
       value: GaslampChild
       objectReference: {fileID: 0}
     - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097804554929592791, guid: 9458ce2a5671fea488512e8cbd41c439, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}

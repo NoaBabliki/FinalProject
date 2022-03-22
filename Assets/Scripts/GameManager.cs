@@ -125,11 +125,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private static void SetGaslampInactive(int stageNumber)
+    {
+        for (int i = 0; i < objectsForMainGame.GetLength(1); i++)
+        {
+            if (objectsForMainGame[stageNumber - 1, i].name.Contains("Gaslamp"))
+            {
+                objectsForMainGame[stageNumber - 1, i].SetActive(false);
+            }
+        }
+    }
+
     public static void AddSuccess(int gaslumpNumber)
     // public static void AddSuccess() 
     {
         if (gaslumpNumber != numberOfStage) 
         {
+            SetGaslampInactive(gaslumpNumber);
             SetMainGameObjectsActive(true, gaslumpNumber + 1);
         }
         successCount += 1;
