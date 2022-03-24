@@ -16,6 +16,8 @@ public class LightingManager : MonoBehaviour
 	private Quaternion requiredRotation;
 	private bool addSuccess = true;
 	MeshRenderer successShapeMesh;
+
+	private int counter = 0;
 	
     // Start is called before the first frame update
     void Start()
@@ -32,15 +34,22 @@ public class LightingManager : MonoBehaviour
         if (closeEnoughPosition(lightSource.position, requiredPosition) &&
 			closeEnoughRotation(lightSource.rotation, requiredRotation)	&& gaslumpNumber == Gaslamp.gaslightNumberOn)
 		{
-			Debug.Log(successShape.name + " detected!");
+			// DebugConsole.Log(successShape.name + " detected!");
 			if (addSuccess)
 			{
+				addSuccess = false;
+				DebugConsole.Log("calling add success " + gaslumpNumber.ToString() + " number " + counter.ToString());
+				counter++;
 				GameManager.AddSuccess(gaslumpNumber);
+				DebugConsole.Log("1");
 				// GameManager.AddSuccess();
 				clue.GetComponent<Animator>().SetBool("NeedHint", false);
+				DebugConsole.Log("11");
 				successAudio.Play();
+				DebugConsole.Log("111");
 				successShapeMesh.enabled = true;
-				addSuccess = false;
+				DebugConsole.Log("1111");
+				DebugConsole.Log("addsuccess value: " + addSuccess.ToString() + " in " + gaslumpNumber);
 			}
 		}
 		if (Gaslamp.gaslightNumberOn != gaslumpNumber) {

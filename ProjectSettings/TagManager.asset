@@ -13,6 +13,14 @@ TagManager:
   - Stage_4
   - Stage_5
   - Stage_6
+  - Furniture_Stage_1
+  - StageAudio
+  - Sculpture
+  - Furniture_Stage_2
+  - Furniture_Stage_3
+  - Furniture_Stage_4
+  - Furniture_Stage_5
+  - Furniture_Stage_6
   layers:
   - Default
   - TransparentFX
