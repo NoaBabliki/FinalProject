@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private static int numberOfStages = 4;
+    [SerializeField] private static int numberOfStages = 6;
     [SerializeField] private Light largeSpot;
     [SerializeField] private Light directionalSpot;
     [SerializeField] private Material successSkybox;
